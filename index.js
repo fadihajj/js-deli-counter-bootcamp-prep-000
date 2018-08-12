@@ -27,11 +27,11 @@ function currentLine(line){
     var x;
     var str = "The line is currently: "
     do{
-      if(i !=line.length){ x=', '} else{ x= ''}
+      if(i !=line.length -1){ x=', '} else{ x= ''}
       str = str + (i+1) +'. ' + line[i] + x;
       i++;
     }
-    while(i <= line.length);
+    while(i < line.length);
    return str;
   }
 }
