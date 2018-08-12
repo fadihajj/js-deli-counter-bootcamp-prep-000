@@ -26,7 +26,7 @@ function currentLine(line){
     var i=0;
     var str = "The line is currently: "
     do{
-      str = str + (i+1) +' ' + line[i] + '.';
+      str = str + (i+1) +'. ' + line[i] + ' ';
       i++;
     }
     while(i < line.length);
