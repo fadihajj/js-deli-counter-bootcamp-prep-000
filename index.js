@@ -31,7 +31,7 @@ function currentLine(line){
       str = str + (i+1) +'. ' + line[i] + x;
       i++;
     }
-    while(i < line.length);
+    while(i <= line.length);
    return str;
   }
 }
